@@ -1,0 +1,135 @@
+body a {
+	text-decoration: none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+/*--/contact--*/
+
+
+.contact_grid_right{
+	padding-top:4em;
+}
+
+.contact-us-title{
+    font-size: 2em;
+    font-weight: 600;
+}
+.address-grid i {
+    font-size: 2.2em;
+    color: var(--link-color);
+}
+.contact_grid_right {
+    width: 100%;
+}
+
+.contact_left_grid label {
+    color: #747779;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+}
+
+
+/* message form */
+
+.contact-us-page-message-box{
+    margin: 2em auto;
+}
+.contact-us-page-message-box h3{
+    color: var(--navigation-background);
+}
+
+.contact-left h4 {
+    color: var(--text-color-content);
+    font-size: 1em;
+    margin-bottom: .5em;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.contact-left p {
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.contact-text a {
+    color: #888;
+}
+
+
+
+.contact_grid_right h6,
+.contact-left h6 {
+    font-size: 1.2em;
+    color: #292b2c;
+    margin-bottom: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.contact-map {
+    width: 100%;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height:500px;
+}
+.ad-inf-sec {
+	padding:4em 0;
+}
+.address-right a {
+    color: #083940;
+}
+.address-right p {
+    color: #2a8490;
+}
+/*-- //contact--*/
+
+/*--responsive--*/
+
+
+@media(max-width:991px) {
+	.contact_grids_info {
+		padding: 0;
+		margin-top: 1em;
+	}
+	
+	.map iframe {
+		width: 100%;
+		min-height: 350px;
+    }
+    .address-grid:nth-child(2) {
+        margin: 1.5em 0;
+    }
+}
+
+@media(max-width:640px) {
+	
+	
+    .contact-map iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media(max-width:600px) {
+	.map iframe {
+		width: 100%;
+		min-height: 300px;
+    }
+    .contact_grid_right {
+        padding-top:3em;
+    }
+}
+
+@media(max-width:440px) {
+    .contact_grid_right {
+        padding-top:2em;
+    }
+}
+
+/*--//responsive--*/
